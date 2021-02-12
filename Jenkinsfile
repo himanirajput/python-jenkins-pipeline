@@ -1,6 +1,6 @@
 node('master') {
     stage("Fetch Source Code") {
-        cleanWS()
+        
         git ([url:'https://github.com/himanirajput/python-jenkins-pipeline',branch:'add-functions-and-tests'])
     }
     
